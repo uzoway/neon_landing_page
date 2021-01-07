@@ -1,1 +1,1 @@
-**Landing page created using HTML and CSS, inspired by EASY TUTORIALS on youtube**
+**Responsive landing page created using HTML and CSS, inspired by EASY TUTORIALS on youtube**
