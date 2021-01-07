@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #222;
+}
+
+.logo{
+  position: relative;
+  width: 35px;
+  margin-left: 6%;
+}
+
+.content{
+  position: relative;
+  margin-top: 25%;
+  margin-left: 18%;
+  max-width: 300px;
+}
+
+.content h1{
+  font-size: 30px;
+  color: #fff;
+  margin: 8px 0;
+}
+
+.content h2{
+  font-size: 35px;
+  margin: 0 0 10px 0;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.content p{
+  font-size: 14px;
+  color: #fff;
+  margin: 0 0 17px 0;
+}
+
+.content span{
+  position: absolute;
+  top: 100px;
+  left: -70px;
+  transform: rotate(-90deg);
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.content span::after{
+  position: absolute;
+  content: '';
+  width: 45px;
+  height: 1px;
+  background: #fff;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+}
+
+.link{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 20px 0;
+  position: relative;
+  font-size: 15px;
+}
+
+.link::after{
+  content: '';
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 1px;
+  transition: 0.5s;
+}
+
+.link:hover::after{
+  width: 50px;
+}
+
+.search{
+  position: absolute;
+  left: 8%;
+  bottom: 6%;
+  width: 18px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.banner .img{
+  display: none;
+}
+
+@media only screen and (min-width: 700px){
+  .banner .img{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 48%;
+  }
+  
+  .content {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 15%;
+    max-width: 300px;
+  }
+
+  .content h1{
+    font-size: 40px;
+    color: #fff;
+    margin: 8px 0;
+  }
+  
+  .content h2{
+    font-size:50px;
+    margin: 0 0 10px 0;
+    opacity: 0.5;
+    color: #fff;
+  }
+  
+  .content p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 17px 0;
+  }
+
+  .link:hover::after{
+    width: 70px;
+  }
+
+  .content span{
+    top: 120px;
+    left: -80px;
+  }
+}

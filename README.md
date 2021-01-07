@@ -1,0 +1,1 @@
+**Landing page created using HTML and CSS, inspired by EASY TUTORIALS on youtube**
